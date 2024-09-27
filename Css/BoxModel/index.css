@@ -1,0 +1,50 @@
+/* Reset or normalize */
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  /* Basic body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  p{
+    color:red;
+    /* border:2px black solid; */
+    width: 300px;
+    /* height: 100px; */
+  height: min-content;
+  padding: 20px;
+   /* overflow:scroll; */
+   outline: 1px dashed red;
+  }
+
+  /* intrininsic :- use height in min content the content take automatic height 
+  
+  extrinsic :- height fixed still content overflow 
+  */
+
+ .main{
+    /* border : 2px solid green; */
+    height :max-content;
+    width :max-content;
+  
+  }
+
+  span{
+    box-sizing: border-box;
+    width: 200px;
+    border: 40px solid blueviolet;
+    padding: 40px;
+    overflow-x:scroll;
+    
+
+  }
+   .extra{
+     
+   }

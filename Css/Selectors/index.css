@@ -1,0 +1,77 @@
+article p:first-of-type{
+    color:blue;
+    font-size: x-large;
+}
+/* universal selector */
+*{ 
+    color :darkmagenta;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+/* type selector */
+
+h1{
+    color:hotpink;
+}
+/* class selector */ 
+.introduction {
+    color:greenyellow;
+    font-weight: 900;
+    font-size:larger
+
+}
+
+/* id selector */
+#contact_us{
+     color:aqua;
+
+}
+button{
+   
+    font-size:medium;
+}
+
+/* attribute selector */ 
+/* s means case-senstive  */
+/* i means case-insenstive */
+[data-type = "primary" i]{ 
+  color:black;
+}
+
+/* * for include in url */
+[href *= 'my-image.jpg']{
+    color:brown;
+
+}
+/* for start string use ^  */
+[href ^= 'my']{
+    color:brown;
+
+}
+
+/* for end with use $ */
+[href $= '.pdf']{
+    color:greenyellow;
+
+}
+
+/* grouping selector */
+ul ,[href="#"]{
+    color:purple;
+    text-decoration: none;
+}
+/* pseudo class */ 
+
+a:hover {
+    color: rgb(234, 1, 251);
+    opacity:0.9;
+}
+li:nth-child(even){
+    background-color: aqua;
+}
+
+/* pseudo elements */
+
+a::after{
+    content: ' Prefix - ';
+}
