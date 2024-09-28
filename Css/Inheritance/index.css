@@ -1,0 +1,50 @@
+article{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color : red;
+}
+
+/* automatice apply on p => inheritance work on downward approach*/
+/* user agent style sheet = default css set by browser */
+
+/* inherit means */
+
+li{
+    color:rgb(162, 255, 0);
+    font-weight: bolder;
+}
+
+
+.animals{
+    color:darkred;
+}
+
+/* .animals li{
+    color :inherit;
+} */
+
+/* whatever color applied initially */
+/* .animals li{
+    color:initial; 
+} */
+
+/* unset intilize and get to know know value is inherited or not and apply prevous color*/
+/* all css property unset */
+.animals li{
+    all :unset;
+}
+
+
+.parent {
+    color: red; /* Parent's text color is red */
+}
+
+/* Child overrides the color */
+.child {
+    color: blue; /* Child's text color is blue */
+}
+.reset-initial {
+    color: initial; /* Reset to the browser's default, usually black */
+}
+.reset-unset {
+    color: unset; /* Inherits from parent (red in this case) because color is inheritable */
+}
