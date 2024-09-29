@@ -1,0 +1,18 @@
+p{
+    color:darkmagenta;
+    font-weight: bold;
+    font-size: 50px;
+}
+.box{
+    background-color: #000000BF;
+    height : 100%;
+    margin:10px;
+    padding:200px;
+
+}
+.box2{
+    height : 100%;
+    margin:10px;
+    padding:200px;
+    background: linear-gradient(#227bdb, #2ce8d2)
+}
