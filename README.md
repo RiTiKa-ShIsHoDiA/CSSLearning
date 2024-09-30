@@ -1,3 +1,3 @@
 Landing Page 1
 
-![Uploading b621e8ac510ba0c0b3e84c9d60e19869.gif…]()
+<img width="947" alt="image" src="https://github.com/RiTiKa-ShIsHoDiA/CSSLearning/assets/122371758/e7bd5a8c-ebeb-4d22-a801-d3fef394f04e">
