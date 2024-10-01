@@ -58,7 +58,7 @@ main{
 }
 #floattext{
     position: absolute;
-    right:-41%;
+    right:-35%;
     top:-5%;
     transform: rotate(90deg);
     transform-origin: 0% 0%;
