@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    flex-direction:row;
+    height:100%;
+    max-width:70%;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* place-content: center center; */
+    /* justify-content: flex-end; */
+    align-content: space-around;
+    border:2px solid green;
+    padding :30px;
+
+}
+#part1{
+    background-color: yellowgreen;
+    color:black;
+    padding:20px;
+    
+    /* flex:1; */
+   
+    
+}
+#part3{
+    background-color: blue;
+    color: #fff;;
+    padding:20px;
+  
+    /* flex:auto; */
+    /* flex:1; */
+    
+}
+#part2{
+    background-color: crimson;
+    color:black;
+    padding:20px;
+    
+    /* flex:2; */
+    
+}
+#part4{
+    background-color: red;
+    color:black;
+    padding:20px;
+    /* flex:3 */
+    /* flex:auto; */
+    
+}
+#part5{
+    background-color: crimson;
+    color:black;
+    padding:20px;
+    /* flex:3;     */
+}
+#part6{
+    background-color: red;
+    color:black;
+    padding:20px;
+    /* flex:3; */
+    
+}
+#links{
+    display:flex;
+
+    /* flex-direction: row-reverse; */
+    /* direction:rtl; */
+    /* writing-mode: vertical-rl; */
+    
+   
+    /* place-content: center center; */
+    /* align-content: center;  work for content on cross axis*/ 
+    justify-content: center;
+    flex-direction:column;
+    
+    border:2px solid red;
+
+}
+#links > a {
+    border:2px dashed crimson;
+}
+
+
