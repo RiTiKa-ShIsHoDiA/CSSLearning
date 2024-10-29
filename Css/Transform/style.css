@@ -14,12 +14,23 @@ body{
     align-items: center;
 }
 .parent{
-
     background-color: deeppink;
     height:min-content;
     width: max-content;
     padding:4vw;
     color:black;
     border:2px solid yellow;
-    transform: translate(2rem,10rem);
+    /* transform: translate(2rem,10rem); */
+    /* transform:rotate(-120deg); +ve for clock-wise -ve for anti clock-wise */
+    
+}
+.parent:hover{
+    /* transform:scale(2,3); */ /* increase height or width*/
+    /* transform:scaleX(0.3) */ /* decrease  width*/
+     /* transform:scaleY(0.5); */  /*decrease height*/
+     /* transform: skewX(-60deg);  */ /* tilt toward x-axis*/
+     /* transform:skewY(30deg); */
+     /* transform:skew(30deg,20deg); */
+     transform: matrix(2,0.2,0.4,3,0,0);
+
 }
