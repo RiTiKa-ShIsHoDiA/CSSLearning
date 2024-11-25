@@ -1,0 +1,28 @@
+/* CSS Boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body ,html{
+  width: 100%;
+  height: 100%;
+}
+
+#box1{
+    height:20%;
+    width:10%;
+    background-color: red;
+}
+#box2{
+    height:20%;
+    width:10%;
+    margin-top:2%;
+    background-color: rgb(86, 22, 22);
+}
+#box3{
+    height:20%;
+    width:10%;
+    margin-top:2%;
+    background-color: rgb(39, 63, 180);
+}
