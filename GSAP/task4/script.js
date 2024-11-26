@@ -5,7 +5,7 @@ tl.from("#part1 h2",{
     duration:2,
 })
 tl.from("#part2 li",{
-  y:-30,
+  y:-40,
   duration:1,
   opacity:0,
   stagger:1.4,
