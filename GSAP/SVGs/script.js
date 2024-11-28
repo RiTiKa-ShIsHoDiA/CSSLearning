@@ -4,19 +4,18 @@ var string = document.querySelector(".string");
 string.addEventListener("mousemove",(dets)=>{
     var currentpath = `M 10 80 Q ${dets.y} ${dets.y} 1000 80`;
     gsap.to("svg path",{
-        duration:1.5,
-        scrub:3,
+        duration:1.8,
+        scrub:2,
         ease: "power3.out", // for smoothness  easing 
         attr:{d:currentpath}
     })
-    console.log("dets",currentpath)
 })
-string.addEventListener("mouseleave",function(){
+string.addEventListener("mouseleave",function(dets){
     gsap.to("svg path",{
         ease: "elastic.out(1,0.2)",
-        duration:0.5,
-        attr:{d:finalpath}
+        duration:1.5,
+        attr:{d:finalpath},
+        overwrite:true,
     })
-    console.log("mouseleave",finalpath)
 
 })
